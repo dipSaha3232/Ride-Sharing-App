@@ -1,0 +1,21 @@
+{
+  "name": "RideSharingApp_step2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "dev": "nodemon client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-schedule": "^2.0.0",
+    "socket.io-client": "^4.0.1"
+  }
+}
